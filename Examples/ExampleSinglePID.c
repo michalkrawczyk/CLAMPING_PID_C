@@ -10,9 +10,9 @@ int main() {
     settingPID(0.1, 0.5, 0.01);
     setBoundriesPID(20, -20);
 
-    double set_point = 1;
-    double p_v = 10;
-    double d_t = 1.0;
+    double set_point = 1;   //desired value
+    double p_v = 10;        //actual value
+    double d_t = 1.0;       //time gap between calculations
 
     for (int i = 0; i < 200; i++)
     {
